@@ -15,10 +15,10 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "/api": {
-        target: "http://localhost:2525",
+      '/api': {
+        target: 'https://pro-api.coinmarketcap.com/',
         changeOrigin: true,
-        secure: false,
+        rewrite: (path) => path.replace(/^\/api/, ''), // Rimuove /api prima di inviare a CMC
       },
     },
   },

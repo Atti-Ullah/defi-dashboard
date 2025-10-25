@@ -4,7 +4,7 @@ type Props = {
 
 export default function Main ({ children }: Props) {
   return (
-    <main className="flex-grow">
+    <main className="flex-1 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       {children}
     </main>
   )
