@@ -1,2 +1,3 @@
 # defi-dashboard
-A DeFi dashboard showcasing blockchain and full-stack development skills. Features wallet integration, token tracking, and portfolio management using React, Node.js, and Web3 technologies.
+DefiDashboard is a modern web application that helps users track, analyze, and manage their crypto portfolios from a single platform.
+It provides real-time token data, wallet integration, and analytics tools — with the long-term goal of evolving into a decentralized finance (DeFi) management hub.
